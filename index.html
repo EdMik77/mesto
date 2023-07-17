@@ -78,11 +78,11 @@
     <div class="popup__container">
       <button type="button" class="popup__close"></button>
       <h3 class="popup__title">Редактировать профиль</h3>
-      <form name="edit-form" action="#" method="get" class="popup__form form" novalidate>
+      <form id="edit-form" action="#" method="get" class="popup__form form" name="profile-edit-form" novalidate>
         <fieldset class="form__set">
-          <input type="text" name="username" id="name" placeholder="Имя" minlength="3" maxlength="24"
+          <input type="text" name="username" id="name-input" placeholder="Имя" minlength="3" maxlength="24"
             class="form__input" required>
-          <input type="text" name="job" id="job" placeholder="Вид деятельности" minlength="3" maxlength="50"
+          <input type="text" name="job" id="job-input" placeholder="Вид деятельности" minlength="3" maxlength="50"
             class="form__input" required>
           <button type="submit" class="form__submit">Сохранить</button>
         </fieldset>
