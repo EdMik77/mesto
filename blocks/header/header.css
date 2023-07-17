@@ -1,5 +1,25 @@
 .header {
+  width: calc(100% - 2*200px);
   max-width: 880px;
   max-height: 74px;
   margin: 45px auto 0;
+}
+
+@media screen and (max-width: 1120px) {
+  .header {
+    width: calc(100% - 2*100px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    width: calc(100% - 2*50px);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .header {
+    width: 100%;
+    margin-top: 28px;
+  }
 }
