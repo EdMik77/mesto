@@ -1,15 +1,21 @@
 .profile__add-button {
   box-sizing: border-box;
-  width: 150px;
-  height: 50px;
-  background: transparent url(../../../images/icons/add.svg) center no-repeat;
-  border: 2px solid #fff;
+  display: block;
+  min-width: 150px;
+  min-height: 50px;
+  margin-left: auto;
+  cursor: pointer;
+  background: transparent url(../../../images/icons/add.svg) no-repeat 22px;
+  background-position: center;
+  border: 2px solid #ffffff;
   border-radius: 2px;
 }
 
-@media screen and (max-width: 838px) {
+@media screen and (max-width: 767px) {
   .profile__add-button {
-    width: 282px;
-    background: url(../../../images/icons/profile_add_button_mob.svg) center no-repeat;
+    width: 100%;
+    max-width: 282px;
+    margin: 0 auto;
+    background-size: 16px;
   }
 }

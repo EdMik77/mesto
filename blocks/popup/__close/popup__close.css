@@ -6,9 +6,9 @@
   height: 32px;
   padding: 0;
   cursor: pointer;
-  background: transparent url(../../../images/icons/Close\ Icon.svg);
+  background: transparent url(../../../images/icons/close_icon.svg);
   border: none;
-  transition: 0.3 ease;
+  transition: 0.3s ease;
 }
 
 .popup__close:hover {
@@ -24,10 +24,9 @@
 
 @media screen and (max-width: 600px) {
   .popup__close {
-    top: -36px;
     right: 0;
     width: 20px;
     height: 20px;
-    background: transparent url(../../../images/close-icn-mobile.svg) center no-repeat;
+    background: transparent url(../../../images/icons/close_icon_mobile.svg) center no-repeat;
   }
 }

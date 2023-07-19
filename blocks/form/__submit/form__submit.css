@@ -9,7 +9,7 @@
   color: #fff;
   text-align: center;
   cursor: pointer;
-  background-color: #000;
+  background: #000;
   border: 1px solid #000;
   border-radius: 2px;
   transition: 0.3s ease;
@@ -21,7 +21,7 @@
 
 .form__submit:disabled {
   color: #000;
-  background-color: #fff;
+  background: #fff;
   border: 1px solid #000;
   opacity: 0.2;
 }
