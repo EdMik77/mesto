@@ -10,6 +10,11 @@
   background: transparent url(../../../images/icons/pen.svg) no-repeat 10px;
   background-position: center;
   border: 1px solid #ffffff;
+  transition: 0.3s ease;
+}
+
+.profile__edit-button:hover {
+  opacity: 0.6;
 }
 
 @media screen and (max-width: 767px) {
